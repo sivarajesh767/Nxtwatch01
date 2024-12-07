@@ -8,7 +8,7 @@ import VideoItemDetails from './components/VideoItemDetails'
 import Trending from './components/Trending'
 import Gaming from './components/Gaming'
 import SavedVideos from './components/SavedVideos'
-import YoutubeContext from './components/YoutubeContext'
+import YoutubeContext from './Context/YoutubeContext'
 
 class App extends Component {
   state = {isTheme: false, savedItems: []}
